@@ -1,29 +1,72 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    background-image: url("imagem.jpeg");
+    background-image: url("imagens/background.jpeg");
+    image-rendering: optimizeQuality;
     background-size: cover;
     background-repeat: no-repeat;
+    color: red;
 }
 
 #content-box {
-    width: 400px;
-    height: 500px;
-    background-color: white;
+    width: 500px;
+    height: 400px;
+    background-image: url("imagens/background_box.jpg");
     padding: 20px;
-    margin: 0 auto;
+    margin: 100px;
     margin-top: 50px;
     border-radius: 10px;
+    font-weight: bold;
 
 }
 
 #calculate {
     width: 150px;
     height: 50px;
-
-    background-color: pink;
+    background-color: black;
     color: white;
     font-size: 20px;
     border: none;
     border-radius: 10px;
+    color: red;
+    font-weight: bold;
+}
+
+h2 {
+
+    background-color: black;
+    color: red;
+
+    
+}
+p {
+
+    border-radius: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: black;
+
+
+
+}
+#crush-name {
+    color: red;
+    background-color: black;
+    margin-top: 5px;
+    width: 150px;
+    height: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+
+
+}
+#your-name {
+    color: red;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 5px;
+    width: 150px;
+    height: 20px;
+    border-radius: 10px;
+    font-weight: bold;
 }
